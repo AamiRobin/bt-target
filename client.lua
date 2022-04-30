@@ -949,7 +949,7 @@ RegisterNUICallback('selectTarget', function(option, cb)
 			elseif data.type == "command" then
 				ExecuteCommand(data.event)
 			elseif data.type == "qbcommand" then
-				TriggerServerEvent('QBCore:CallCommand', data.event, data)
+				TriggerServerEvent('ESX:CallCommand', data.event, data)
 			else
 				TriggerEvent(data.event, data)
 			end

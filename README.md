@@ -16,7 +16,7 @@ qb-target is a targeting solution that allows interaction with any predefined en
 
 ## Optional Dependency
 
-* [QBCore](https://github.com/qbcore-framework/qb-core)
+* [ESX](https://github.com/qbcore-framework/qb-core)
 
 ## Information
 
@@ -26,7 +26,7 @@ You are free to help through Pull Requests and leave as much suggestions or issu
 
 The TEMPLATES.md and EXAMPLES.md are always being improved and new examples can be made on request, just let me know!
 
-## Features 
+## Features
 - Maintains compatibility with bt-target while providing improved utility and performance
 - Optimised and improved raycasting function allows interaction with a wider range of entities
 - Add generic options to apply for all players, peds, vehicles, or objects

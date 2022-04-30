@@ -128,8 +128,8 @@ CreateThread(function()
 			Wait(1000)
 		end
 	else
-		local QBCore = exports['qb-core']:GetCoreObject()
-		local PlayerData = QBCore.Functions.GetPlayerData()
+		local ESX = exports['qb-core']:GetCoreObject()
+		local PlayerData = ESX.GetPlayerData()
 
 		ItemCount = function(item)
 			for _, v in pairs(PlayerData.items) do
@@ -168,25 +168,25 @@ CreateThread(function()
 			return citizenid == PlayerData.citizenid or citizenid[PlayerData.citizenid]
 		end
 
-		RegisterNetEvent('QBCore:Client:OnPlayerLoaded', function()
-			PlayerData = QBCore.Functions.GetPlayerData()
+		RegisterNetEvent('ESX:Client:OnPlayerLoaded', function()
+			PlayerData = ESX.GetPlayerData()
 			SpawnPeds()
 		end)
 
-		RegisterNetEvent('QBCore:Client:OnPlayerUnload', function()
+		RegisterNetEvent('ESX:Client:OnPlayerUnload', function()
 			PlayerData = {}
 			DeletePeds()
 		end)
 
-		RegisterNetEvent('QBCore:Client:OnJobUpdate', function(JobInfo)
+		RegisterNetEvent('ESX:Client:OnJobUpdate', function(JobInfo)
 			PlayerData.job = JobInfo
 		end)
 
-		RegisterNetEvent('QBCore:Client:OnGangUpdate', function(GangInfo)
+		RegisterNetEvent('ESX:Client:OnGangUpdate', function(GangInfo)
 			PlayerData.gang = GangInfo
 		end)
 
-		RegisterNetEvent('QBCore:Player:SetPlayerData', function(val)
+		RegisterNetEvent('ESX:Player:SetPlayerData', function(val)
 			PlayerData = val
 		end)
 	end

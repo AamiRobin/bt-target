@@ -43,7 +43,7 @@ targetoptions = {
     options = { -- This is your options table, in this table all the options will be specified for the target to accept
       { -- This is the first table with options, you can make as many options inside the options table as you want
         type = "client", -- This specifies the type of event the target has to trigger on click, this can be "client", "server", "command" or "qbcommand", this is OPTIONAL and will only work if the event is also specified
-        event = "Test:Event", -- This is the event it will trigger on click, this can be a client event, server event, command or qbcore registered command, NOTICE: Normal command can't have arguments passed through, QBCore registered ones can have arguments passed through
+        event = "Test:Event", -- This is the event it will trigger on click, this can be a client event, server event, command or qbcore registered command, NOTICE: Normal command can't have arguments passed through, ESX registered ones can have arguments passed through
         icon = 'fas fa-example', -- This is the icon that will display next to this trigger option
         label = 'Test', -- This is the label of this option which you would be able to click on to trigger everything, this has to be a string
         targeticon = 'fas fa-example', -- This is the icon of the target itself, the icon changes to this when it turns blue on this specific option, this is OPTIONAL
@@ -75,7 +75,7 @@ exports['qb-target']:AddCircleZone("name", vector3(x, y, z), 1.5, { -- The name 
   options = { -- This is your options table, in this table all the options will be specified for the target to accept
     { -- This is the first table with options, you can make as many options inside the options table as you want
       type = "client", -- This specifies the type of event the target has to trigger on click, this can be "client", "server", "command" or "qbcommand", this is OPTIONAL and will only work if the event is also specified
-      event = "Test:Event", -- This is the event it will trigger on click, this can be a client event, server event, command or qbcore registered command, NOTICE: Normal command can't have arguments passed through, QBCore registered ones can have arguments passed through
+      event = "Test:Event", -- This is the event it will trigger on click, this can be a client event, server event, command or qbcore registered command, NOTICE: Normal command can't have arguments passed through, ESX registered ones can have arguments passed through
       icon = 'fas fa-example', -- This is the icon that will display next to this trigger option
       label = 'Test', -- This is the label of this option which you would be able to click on to trigger everything, this has to be a string
       targeticon = 'fas fa-example', -- This is the icon of the target itself, the icon changes to this when it turns blue on this specific option, this is OPTIONAL
@@ -147,7 +147,7 @@ targetoptions = {
     options = { -- This is your options table, in this table all the options will be specified for the target to accept
       { -- This is the first table with options, you can make as many options inside the options table as you want
         type = "client", -- This specifies the type of event the target has to trigger on click, this can be "client", "server", "command" or "qbcommand", this is OPTIONAL and will only work if the event is also specified
-        event = "Test:Event", -- This is the event it will trigger on click, this can be a client event, server event, command or qbcore registered command, NOTICE: Normal command can't have arguments passed through, QBCore registered ones can have arguments passed through
+        event = "Test:Event", -- This is the event it will trigger on click, this can be a client event, server event, command or qbcore registered command, NOTICE: Normal command can't have arguments passed through, ESX registered ones can have arguments passed through
         icon = 'fas fa-example', -- This is the icon that will display next to this trigger option
         label = 'Test', -- This is the label of this option which you would be able to click on to trigger everything, this has to be a string
         targeticon = 'fas fa-example', -- This is the icon of the target itself, the icon changes to this when it turns blue on this specific option, this is OPTIONAL
@@ -182,7 +182,7 @@ exports['qb-target']:AddBoxZone("name", vector3(x, y, z), 1.5, 1.6, { -- The nam
   options = { -- This is your options table, in this table all the options will be specified for the target to accept
     { -- This is the first table with options, you can make as many options inside the options table as you want
       type = "client", -- This specifies the type of event the target has to trigger on click, this can be "client", "server", "command" or "qbcommand", this is OPTIONAL and will only work if the event is also specified
-      event = "Test:Event", -- This is the event it will trigger on click, this can be a client event, server event, command or qbcore registered command, NOTICE: Normal command can't have arguments passed through, QBCore registered ones can have arguments passed through
+      event = "Test:Event", -- This is the event it will trigger on click, this can be a client event, server event, command or qbcore registered command, NOTICE: Normal command can't have arguments passed through, ESX registered ones can have arguments passed through
       icon = 'fas fa-example', -- This is the icon that will display next to this trigger option
       label = 'Test', -- This is the label of this option which you would be able to click on to trigger everything, this has to be a string
       targeticon = 'fas fa-example', -- This is the icon of the target itself, the icon changes to this when it turns blue on this specific option, this is OPTIONAL
@@ -256,7 +256,7 @@ targetoptions = {
     options = { -- This is your options table, in this table all the options will be specified for the target to accept
       { -- This is the first table with options, you can make as many options inside the options table as you want
         type = "client", -- This specifies the type of event the target has to trigger on click, this can be "client", "server", "command" or "qbcommand", this is OPTIONAL and will only work if the event is also specified
-        event = "Test:Event", -- This is the event it will trigger on click, this can be a client event, server event, command or qbcore registered command, NOTICE: Normal command can't have arguments passed through, QBCore registered ones can have arguments passed through
+        event = "Test:Event", -- This is the event it will trigger on click, this can be a client event, server event, command or qbcore registered command, NOTICE: Normal command can't have arguments passed through, ESX registered ones can have arguments passed through
         icon = 'fas fa-example', -- This is the icon that will display next to this trigger option
         label = 'Test', -- This is the label of this option which you would be able to click on to trigger everything, this has to be a string
         targeticon = 'fas fa-example', -- This is the icon of the target itself, the icon changes to this when it turns blue on this specific option, this is OPTIONAL
@@ -293,7 +293,7 @@ exports['qb-target']:AddPolyZone("name", points, {
   options = { -- This is your options table, in this table all the options will be specified for the target to accept
     { -- This is the first table with options, you can make as many options inside the options table as you want
       type = "client", -- This specifies the type of event the target has to trigger on click, this can be "client", "server", "command" or "qbcommand", this is OPTIONAL and will only work if the event is also specified
-      event = "Test:Event", -- This is the event it will trigger on click, this can be a client event, server event, command or qbcore registered command, NOTICE: Normal command can't have arguments passed through, QBCore registered ones can have arguments passed through
+      event = "Test:Event", -- This is the event it will trigger on click, this can be a client event, server event, command or qbcore registered command, NOTICE: Normal command can't have arguments passed through, ESX registered ones can have arguments passed through
       icon = 'fas fa-example', -- This is the icon that will display next to this trigger option
       label = 'Test', -- This is the label of this option which you would be able to click on to trigger everything, this has to be a string
       targeticon = 'fas fa-example', -- This is the icon of the target itself, the icon changes to this when it turns blue on this specific option, this is OPTIONAL
@@ -368,7 +368,7 @@ exports['qb-target']:AddComboZone(zones, {
   options = { -- This is your options table, in this table all the options will be specified for the target to accept
     { -- This is the first table with options, you can make as many options inside the options table as you want
       type = "client", -- This specifies the type of event the target has to trigger on click, this can be "client", "server", "command" or "qbcommand", this is OPTIONAL and will only work if the event is also specified
-      event = "Test:Event", -- This is the event it will trigger on click, this can be a client event, server event, command or qbcore registered command, NOTICE: Normal command can't have arguments passed through, QBCore registered ones can have arguments passed through
+      event = "Test:Event", -- This is the event it will trigger on click, this can be a client event, server event, command or qbcore registered command, NOTICE: Normal command can't have arguments passed through, ESX registered ones can have arguments passed through
       icon = 'fas fa-example', -- This is the icon that will display next to this trigger option
       label = 'Test', -- This is the label of this option which you would be able to click on to trigger everything, this has to be a string
       targeticon = 'fas fa-example', -- This is the icon of the target itself, the icon changes to this when it turns blue on this specific option, this is OPTIONAL
@@ -425,7 +425,7 @@ parameters = {
     options = { -- This is your options table, in this table all the options will be specified for the target to accept
       { -- This is the first table with options, you can make as many options inside the options table as you want
         type = "client", -- This specifies the type of event the target has to trigger on click, this can be "client", "server", "command" or "qbcommand", this is OPTIONAL and will only work if the event is also specified
-        event = "Test:Event", -- This is the event it will trigger on click, this can be a client event, server event, command or qbcore registered command, NOTICE: Normal command can't have arguments passed through, QBCore registered ones can have arguments passed through
+        event = "Test:Event", -- This is the event it will trigger on click, this can be a client event, server event, command or qbcore registered command, NOTICE: Normal command can't have arguments passed through, ESX registered ones can have arguments passed through
         icon = 'fas fa-example', -- This is the icon that will display next to this trigger option
         label = 'Test', -- This is the label of this option which you would be able to click on to trigger everything, this has to be a string
         targeticon = 'fas fa-example', -- This is the icon of the target itself, the icon changes to this when it turns blue on this specific option, this is OPTIONAL
@@ -458,7 +458,7 @@ exports['qb-target']:AddTargetBone(bones, { -- The bones can be a string or a ta
   options = { -- This is your options table, in this table all the options will be specified for the target to accept
     { -- This is the first table with options, you can make as many options inside the options table as you want
       type = "client", -- This specifies the type of event the target has to trigger on click, this can be "client", "server", "command" or "qbcommand", this is OPTIONAL and will only work if the event is also specified
-      event = "Test:Event", -- This is the event it will trigger on click, this can be a client event, server event, command or qbcore registered command, NOTICE: Normal command can't have arguments passed through, QBCore registered ones can have arguments passed through
+      event = "Test:Event", -- This is the event it will trigger on click, this can be a client event, server event, command or qbcore registered command, NOTICE: Normal command can't have arguments passed through, ESX registered ones can have arguments passed through
       icon = 'fas fa-example', -- This is the icon that will display next to this trigger option
       label = 'Test', -- This is the label of this option which you would be able to click on to trigger everything, this has to be a string
       targeticon = 'fas fa-example', -- This is the icon of the target itself, the icon changes to this when it turns blue on this specific option, this is OPTIONAL
@@ -520,7 +520,7 @@ CreateThread(function()
     options = { -- This is your options table, in this table all the options will be specified for the target to accept
       { -- This is the first table with options, you can make as many options inside the options table as you want
         type = "client", -- This specifies the type of event the target has to trigger on click, this can be "client", "server", "command" or "qbcommand", this is OPTIONAL and will only work if the event is also specified
-        event = "Test:Event", -- This is the event it will trigger on click, this can be a client event, server event, command or qbcore registered command, NOTICE: Normal command can't have arguments passed through, QBCore registered ones can have arguments passed through
+        event = "Test:Event", -- This is the event it will trigger on click, this can be a client event, server event, command or qbcore registered command, NOTICE: Normal command can't have arguments passed through, ESX registered ones can have arguments passed through
         icon = 'fas fa-example', -- This is the icon that will display next to this trigger option
         label = 'Test', -- This is the label of this option which you would be able to click on to trigger everything, this has to be a string
         targeticon = 'fas fa-example', -- This is the icon of the target itself, the icon changes to this when it turns blue on this specific option, this is OPTIONAL
@@ -586,12 +586,12 @@ CreateThread(function()
   local entity = CreatePed(0, model, GetEntityCoords(PlayerPedId()), GetEntityHeading(PlayerPedId()), true, false)
   exports['qb-target']:AddEntityZone("name", entity, { -- The specified entity number
     name = "name", -- This is the name of the zone recognized by PolyZone, this has to be unique so it doesn't mess up with other zones
-    debugPoly = false, -- This is for enabling/disabling the drawing of the box, it accepts only a boolean value (true or false), when true it will draw the polyzone in green 
+    debugPoly = false, -- This is for enabling/disabling the drawing of the box, it accepts only a boolean value (true or false), when true it will draw the polyzone in green
   }, {
     options = { -- This is your options table, in this table all the options will be specified for the target to accept
       { -- This is the first table with options, you can make as many options inside the options table as you want
         type = "client", -- This specifies the type of event the target has to trigger on click, this can be "client", "server", "command" or "qbcommand", this is OPTIONAL and will only work if the event is also specified
-        event = "Test:Event", -- This is the event it will trigger on click, this can be a client event, server event, command or qbcore registered command, NOTICE: Normal command can't have arguments passed through, QBCore registered ones can have arguments passed through
+        event = "Test:Event", -- This is the event it will trigger on click, this can be a client event, server event, command or qbcore registered command, NOTICE: Normal command can't have arguments passed through, ESX registered ones can have arguments passed through
         icon = 'fas fa-example', -- This is the icon that will display next to this trigger option
         label = 'Test', -- This is the label of this option which you would be able to click on to trigger everything, this has to be a string
         targeticon = 'fas fa-example', -- This is the icon of the target itself, the icon changes to this when it turns blue on this specific option, this is OPTIONAL
@@ -650,7 +650,7 @@ parameters = {
     options = { -- This is your options table, in this table all the options will be specified for the target to accept
       { -- This is the first table with options, you can make as many options inside the options table as you want
         type = "client", -- This specifies the type of event the target has to trigger on click, this can be "client", "server", "command" or "qbcommand", this is OPTIONAL and will only work if the event is also specified
-        event = "Test:Event", -- This is the event it will trigger on click, this can be a client event, server event, command or qbcore registered command, NOTICE: Normal command can't have arguments passed through, QBCore registered ones can have arguments passed through
+        event = "Test:Event", -- This is the event it will trigger on click, this can be a client event, server event, command or qbcore registered command, NOTICE: Normal command can't have arguments passed through, ESX registered ones can have arguments passed through
         icon = 'fas fa-example', -- This is the icon that will display next to this trigger option
         label = 'Test', -- This is the label of this option which you would be able to click on to trigger everything, this has to be a string
         targeticon = 'fas fa-example', -- This is the icon of the target itself, the icon changes to this when it turns blue on this specific option, this is OPTIONAL
@@ -682,7 +682,7 @@ exports['qb-target']:AddTargetModel(models, { -- This defines the models, can be
   options = { -- This is your options table, in this table all the options will be specified for the target to accept
     { -- This is the first table with options, you can make as many options inside the options table as you want
       type = "client", -- This specifies the type of event the target has to trigger on click, this can be "client", "server", "command" or "qbcommand", this is OPTIONAL and will only work if the event is also specified
-      event = "Test:Event", -- This is the event it will trigger on click, this can be a client event, server event, command or qbcore registered command, NOTICE: Normal command can't have arguments passed through, QBCore registered ones can have arguments passed through
+      event = "Test:Event", -- This is the event it will trigger on click, this can be a client event, server event, command or qbcore registered command, NOTICE: Normal command can't have arguments passed through, ESX registered ones can have arguments passed through
       icon = 'fas fa-example', -- This is the icon that will display next to this trigger option
       label = 'Test', -- This is the label of this option which you would be able to click on to trigger everything, this has to be a string
       targeticon = 'fas fa-example', -- This is the icon of the target itself, the icon changes to this when it turns blue on this specific option, this is OPTIONAL
@@ -792,7 +792,7 @@ parameters = {
   options = { -- This is your options table, in this table all the options will be specified for the target to accept
     { -- This is the first table with options, you can make as many options inside the options table as you want
       type = "client", -- This specifies the type of event the target has to trigger on click, this can be "client", "server", "command" or "qbcommand", this is OPTIONAL and will only work if the event is also specified
-      event = "Test:Event", -- This is the event it will trigger on click, this can be a client event, server event, command or qbcore registered command, NOTICE: Normal command can't have arguments passed through, QBCore registered ones can have arguments passed through
+      event = "Test:Event", -- This is the event it will trigger on click, this can be a client event, server event, command or qbcore registered command, NOTICE: Normal command can't have arguments passed through, ESX registered ones can have arguments passed through
       icon = 'fas fa-example', -- This is the icon that will display next to this trigger option
       label = 'Test', -- This is the label of this option which you would be able to click on to trigger everything, this has to be a string
       targeticon = 'fas fa-example', -- This is the icon of the target itself, the icon changes to this when it turns blue on this specific option, this is OPTIONAL
@@ -820,7 +820,7 @@ exports['qb-target']:AddGlobalPed({
   options = { -- This is your options table, in this table all the options will be specified for the target to accept
     { -- This is the first table with options, you can make as many options inside the options table as you want
       type = "client", -- This specifies the type of event the target has to trigger on click, this can be "client", "server", "command" or "qbcommand", this is OPTIONAL and will only work if the event is also specified
-      event = "Test:Event", -- This is the event it will trigger on click, this can be a client event, server event, command or qbcore registered command, NOTICE: Normal command can't have arguments passed through, QBCore registered ones can have arguments passed through
+      event = "Test:Event", -- This is the event it will trigger on click, this can be a client event, server event, command or qbcore registered command, NOTICE: Normal command can't have arguments passed through, ESX registered ones can have arguments passed through
       icon = 'fas fa-example', -- This is the icon that will display next to this trigger option
       label = 'Test', -- This is the label of this option which you would be able to click on to trigger everything, this has to be a string
       targeticon = 'fas fa-example', -- This is the icon of the target itself, the icon changes to this when it turns blue on this specific option, this is OPTIONAL
@@ -874,7 +874,7 @@ parameters = {
   options = { -- This is your options table, in this table all the options will be specified for the target to accept
     { -- This is the first table with options, you can make as many options inside the options table as you want
       type = "client", -- This specifies the type of event the target has to trigger on click, this can be "client", "server", "command" or "qbcommand", this is OPTIONAL and will only work if the event is also specified
-      event = "Test:Event", -- This is the event it will trigger on click, this can be a client event, server event, command or qbcore registered command, NOTICE: Normal command can't have arguments passed through, QBCore registered ones can have arguments passed through
+      event = "Test:Event", -- This is the event it will trigger on click, this can be a client event, server event, command or qbcore registered command, NOTICE: Normal command can't have arguments passed through, ESX registered ones can have arguments passed through
       icon = 'fas fa-example', -- This is the icon that will display next to this trigger option
       label = 'Test', -- This is the label of this option which you would be able to click on to trigger everything, this has to be a string
       targeticon = 'fas fa-example', -- This is the icon of the target itself, the icon changes to this when it turns blue on this specific option, this is OPTIONAL
@@ -902,7 +902,7 @@ exports['qb-target']:AddGlobalVehicle({
   options = { -- This is your options table, in this table all the options will be specified for the target to accept
     { -- This is the first table with options, you can make as many options inside the options table as you want
       type = "client", -- This specifies the type of event the target has to trigger on click, this can be "client", "server", "command" or "qbcommand", this is OPTIONAL and will only work if the event is also specified
-      event = "Test:Event", -- This is the event it will trigger on click, this can be a client event, server event, command or qbcore registered command, NOTICE: Normal command can't have arguments passed through, QBCore registered ones can have arguments passed through
+      event = "Test:Event", -- This is the event it will trigger on click, this can be a client event, server event, command or qbcore registered command, NOTICE: Normal command can't have arguments passed through, ESX registered ones can have arguments passed through
       icon = 'fas fa-example', -- This is the icon that will display next to this trigger option
       label = 'Test', -- This is the label of this option which you would be able to click on to trigger everything, this has to be a string
       targeticon = 'fas fa-example', -- This is the icon of the target itself, the icon changes to this when it turns blue on this specific option, this is OPTIONAL
@@ -956,7 +956,7 @@ parameters = {
   options = { -- This is your options table, in this table all the options will be specified for the target to accept
     { -- This is the first table with options, you can make as many options inside the options table as you want
       type = "client", -- This specifies the type of event the target has to trigger on click, this can be "client", "server", "command" or "qbcommand", this is OPTIONAL and will only work if the event is also specified
-      event = "Test:Event", -- This is the event it will trigger on click, this can be a client event, server event, command or qbcore registered command, NOTICE: Normal command can't have arguments passed through, QBCore registered ones can have arguments passed through
+      event = "Test:Event", -- This is the event it will trigger on click, this can be a client event, server event, command or qbcore registered command, NOTICE: Normal command can't have arguments passed through, ESX registered ones can have arguments passed through
       icon = 'fas fa-example', -- This is the icon that will display next to this trigger option
       label = 'Test', -- This is the label of this option which you would be able to click on to trigger everything, this has to be a string
       targeticon = 'fas fa-example', -- This is the icon of the target itself, the icon changes to this when it turns blue on this specific option, this is OPTIONAL
@@ -984,7 +984,7 @@ exports['qb-target']:AddGlobalObject({
   options = { -- This is your options table, in this table all the options will be specified for the target to accept
     { -- This is the first table with options, you can make as many options inside the options table as you want
       type = "client", -- This specifies the type of event the target has to trigger on click, this can be "client", "server", "command" or "qbcommand", this is OPTIONAL and will only work if the event is also specified
-      event = "Test:Event", -- This is the event it will trigger on click, this can be a client event, server event, command or qbcore registered command, NOTICE: Normal command can't have arguments passed through, QBCore registered ones can have arguments passed through
+      event = "Test:Event", -- This is the event it will trigger on click, this can be a client event, server event, command or qbcore registered command, NOTICE: Normal command can't have arguments passed through, ESX registered ones can have arguments passed through
       icon = 'fas fa-example', -- This is the icon that will display next to this trigger option
       label = 'Test', -- This is the label of this option which you would be able to click on to trigger everything, this has to be a string
       targeticon = 'fas fa-example', -- This is the icon of the target itself, the icon changes to this when it turns blue on this specific option, this is OPTIONAL
@@ -1038,7 +1038,7 @@ parameters = {
   options = { -- This is your options table, in this table all the options will be specified for the target to accept
     { -- This is the first table with options, you can make as many options inside the options table as you want
       type = "client", -- This specifies the type of event the target has to trigger on click, this can be "client", "server", "command" or "qbcommand", this is OPTIONAL and will only work if the event is also specified
-      event = "Test:Event", -- This is the event it will trigger on click, this can be a client event, server event, command or qbcore registered command, NOTICE: Normal command can't have arguments passed through, QBCore registered ones can have arguments passed through
+      event = "Test:Event", -- This is the event it will trigger on click, this can be a client event, server event, command or qbcore registered command, NOTICE: Normal command can't have arguments passed through, ESX registered ones can have arguments passed through
       icon = 'fas fa-example', -- This is the icon that will display next to this trigger option
       label = 'Test', -- This is the label of this option which you would be able to click on to trigger everything, this has to be a string
       targeticon = 'fas fa-example', -- This is the icon of the target itself, the icon changes to this when it turns blue on this specific option, this is OPTIONAL
@@ -1066,7 +1066,7 @@ exports['qb-target']:AddGlobalPlayer({
   options = { -- This is your options table, in this table all the options will be specified for the target to accept
     { -- This is the first table with options, you can make as many options inside the options table as you want
       type = "client", -- This specifies the type of event the target has to trigger on click, this can be "client", "server", "command" or "qbcommand", this is OPTIONAL and will only work if the event is also specified
-      event = "Test:Event", -- This is the event it will trigger on click, this can be a client event, server event, command or qbcore registered command, NOTICE: Normal command can't have arguments passed through, QBCore registered ones can have arguments passed through
+      event = "Test:Event", -- This is the event it will trigger on click, this can be a client event, server event, command or qbcore registered command, NOTICE: Normal command can't have arguments passed through, ESX registered ones can have arguments passed through
       icon = 'fas fa-example', -- This is the icon that will display next to this trigger option
       label = 'Test', -- This is the label of this option which you would be able to click on to trigger everything, this has to be a string
       targeticon = 'fas fa-example', -- This is the icon of the target itself, the icon changes to this when it turns blue on this specific option, this is OPTIONAL
@@ -1278,7 +1278,7 @@ datatable = {
     options = { -- This is your options table, in this table all the options will be specified for the target to accept
       { -- This is the first table with options, you can make as many options inside the options table as you want
         type = "client", -- This specifies the type of event the target has to trigger on click, this can be "client", "server", "command" or "qbcommand", this is OPTIONAL and will only work if the event is also specified
-        event = "Test:Event", -- This is the event it will trigger on click, this can be a client event, server event, command or qbcore registered command, NOTICE: Normal command can't have arguments passed through, QBCore registered ones can have arguments passed through
+        event = "Test:Event", -- This is the event it will trigger on click, this can be a client event, server event, command or qbcore registered command, NOTICE: Normal command can't have arguments passed through, ESX registered ones can have arguments passed through
         icon = 'fas fa-example', -- This is the icon that will display next to this trigger option
         label = 'Test', -- This is the label of this option which you would be able to click on to trigger everything, this has to be a string
         targeticon = 'fas fa-example', -- This is the icon of the target itself, the icon changes to this when it turns blue on this specific option, this is OPTIONAL
@@ -1322,7 +1322,7 @@ exports['qb-target']:SpawnPed({
     options = { -- This is your options table, in this table all the options will be specified for the target to accept
       { -- This is the first table with options, you can make as many options inside the options table as you want
         type = "client", -- This specifies the type of event the target has to trigger on click, this can be "client", "server", "command" or "qbcommand", this is OPTIONAL and will only work if the event is also specified
-        event = "Test:Event", -- This is the event it will trigger on click, this can be a client event, server event, command or qbcore registered command, NOTICE: Normal command can't have arguments passed through, QBCore registered ones can have arguments passed through
+        event = "Test:Event", -- This is the event it will trigger on click, this can be a client event, server event, command or qbcore registered command, NOTICE: Normal command can't have arguments passed through, ESX registered ones can have arguments passed through
         icon = 'fas fa-example', -- This is the icon that will display next to this trigger option
         label = 'Test', -- This is the label of this option which you would be able to click on to trigger everything, this has to be a string
         targeticon = 'fas fa-example', -- This is the icon of the target itself, the icon changes to this when it turns blue on this specific option, this is OPTIONAL
@@ -1363,7 +1363,7 @@ exports['qb-target']:SpawnPed({
       options = { -- This is your options table, in this table all the options will be specified for the target to accept
         { -- This is the first table with options, you can make as many options inside the options table as you want
           type = "client", -- This specifies the type of event the target has to trigger on click, this can be "client", "server", "command" or "qbcommand", this is OPTIONAL and will only work if the event is also specified
-          event = "Test:Event", -- This is the event it will trigger on click, this can be a client event, server event, command or qbcore registered command, NOTICE: Normal command can't have arguments passed through, QBCore registered ones can have arguments passed through
+          event = "Test:Event", -- This is the event it will trigger on click, this can be a client event, server event, command or qbcore registered command, NOTICE: Normal command can't have arguments passed through, ESX registered ones can have arguments passed through
           icon = 'fas fa-example', -- This is the icon that will display next to this trigger option
           label = 'Test', -- This is the label of this option which you would be able to click on to trigger everything, this has to be a string
           targeticon = 'fas fa-example', -- This is the icon of the target itself, the icon changes to this when it turns blue on this specific option, this is OPTIONAL
@@ -1401,7 +1401,7 @@ exports['qb-target']:SpawnPed({
       options = { -- This is your options table, in this table all the options will be specified for the target to accept
         { -- This is the first table with options, you can make as many options inside the options table as you want
           type = "client", -- This specifies the type of event the target has to trigger on click, this can be "client", "server", "command" or "qbcommand", this is OPTIONAL and will only work if the event is also specified
-          event = "Test:Event", -- This is the event it will trigger on click, this can be a client event, server event, command or qbcore registered command, NOTICE: Normal command can't have arguments passed through, QBCore registered ones can have arguments passed through
+          event = "Test:Event", -- This is the event it will trigger on click, this can be a client event, server event, command or qbcore registered command, NOTICE: Normal command can't have arguments passed through, ESX registered ones can have arguments passed through
           icon = 'fas fa-example', -- This is the icon that will display next to this trigger option
           label = 'Test', -- This is the label of this option which you would be able to click on to trigger everything, this has to be a string
           targeticon = 'fas fa-example', -- This is the icon of the target itself, the icon changes to this when it turns blue on this specific option, this is OPTIONAL
